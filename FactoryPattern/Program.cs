@@ -8,8 +8,16 @@ namespace FactoryPattern
 {
     class Program
     {
+
         static void Main(string[] args)
         {
+            ShapeFactory fact = new ShapeFactory();
+
+            foreach (var shape in Enum.GetValues(typeof(ShapeFactory.ShapeType)))
+            {
+                fact.getShape((ShapeFactory.ShapeType)shape).draw();
+            }
+            Console.ReadKey();
         }
     }
 }
