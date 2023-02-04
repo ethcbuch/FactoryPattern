@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Ethan Buchanan
+//2-3-23
+//CSCI352
+//Shape Factory, creates shape objects and returns them
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +17,8 @@ namespace FactoryPattern
                 Line,
                 Circle,
                 Rectangle,
-                Triangle
+                Triangle,
+                Square
             }
         public IGeometricShape getShape(ShapeType type)
         {

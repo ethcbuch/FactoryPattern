@@ -1,4 +1,9 @@
-﻿using System;
+﻿//Ethan Buchanan
+//2-3-23
+//CSCI352
+//IGeometricShape implementation and code for each shape class and their code
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
